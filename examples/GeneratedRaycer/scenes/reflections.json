@@ -1,0 +1,350 @@
+{
+    "ambient": [
+        0.40000000000000002,
+        0.40000000000000002,
+        0.40000000000000002
+    ],
+    "background": [
+        0.40000000000000002,
+        0.80000000000000004,
+        1
+    ],
+    "children": [
+        {
+            "color": [
+                0.45490199999999997,
+                1,
+                0.85097999999999996
+            ],
+            "id": "{f584377f-1897-4a4f-a47e-1f6831057fae}",
+            "name": "Blueish",
+            "type": "ConstantColorTexture"
+        },
+        {
+            "bevelRadius": 0,
+            "id": "{bf65a8a1-d08e-49b6-b3b0-df07d5630a3a}",
+            "material": "{c3ab6b22-8693-437d-b1db-361e951903f4}",
+            "name": "Floor",
+            "position": [
+                0,
+                2.1000000000000001,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "size": [
+                12,
+                0.10000000000000001,
+                12
+            ],
+            "type": "Box",
+            "visible": true
+        },
+        {
+            "ambientCoefficient": 1,
+            "diffuseCoefficient": 1,
+            "diffuseTexture": "{4c743459-7f7f-4d58-b7e2-1590533da719}",
+            "id": "{c3ab6b22-8693-437d-b1db-361e951903f4}",
+            "name": "FloorMaterial",
+            "type": "MatteMaterial"
+        },
+        {
+            "brightTexture": "{ff31bfc7-6b94-4be4-a8f7-152258c04973}",
+            "id": "{4c743459-7f7f-4d58-b7e2-1590533da719}",
+            "name": "CheckerBoard",
+            "type": "CheckerBoardTexture"
+        },
+        {
+            "color": [
+                1,
+                1,
+                1
+            ],
+            "id": "{ff31bfc7-6b94-4be4-a8f7-152258c04973}",
+            "name": "White",
+            "type": "ConstantColorTexture"
+        },
+        {
+            "ambientCoefficient": 1,
+            "diffuseCoefficient": 1,
+            "diffuseTexture": "{f584377f-1897-4a4f-a47e-1f6831057fae}",
+            "exponent": 16,
+            "id": "{c290854a-56e2-4f80-9d5a-b4eac28d7cda}",
+            "name": "Glass",
+            "reflectionCoefficient": 0.5,
+            "reflectionColor": [
+                0,
+                0,
+                1
+            ],
+            "refractionIndex": 1.5700000000000001,
+            "specularCoefficient": 1,
+            "specularColor": [
+                1,
+                1,
+                1
+            ],
+            "transmissionCoefficient": 0.5,
+            "type": "TransparentMaterial"
+        },
+        {
+            "bevelRadius": 0.050000000000000003,
+            "id": "{ff58e490-4daf-49e8-9c59-61c2e99493c0}",
+            "material": "{c290854a-56e2-4f80-9d5a-b4eac28d7cda}",
+            "name": "Box 1",
+            "position": [
+                0,
+                0.001,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "size": [
+                2,
+                2,
+                0.10000000000000001
+            ],
+            "type": "Box",
+            "visible": true
+        },
+        {
+            "bevelRadius": 0.050000000000000003,
+            "id": "{22836e11-2914-47b8-81fe-bcdf6f061dc8}",
+            "material": "{c290854a-56e2-4f80-9d5a-b4eac28d7cda}",
+            "name": "Box 2",
+            "position": [
+                0,
+                0.001,
+                0.5
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "size": [
+                2,
+                2,
+                0.10000000000000001
+            ],
+            "type": "Box",
+            "visible": true
+        },
+        {
+            "bevelRadius": 0.050000000000000003,
+            "id": "{a118bc64-912f-4c3d-80ac-44d2b9811876}",
+            "material": "{c290854a-56e2-4f80-9d5a-b4eac28d7cda}",
+            "name": "Box 3",
+            "position": [
+                0,
+                0.001,
+                -0.5
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "size": [
+                2,
+                2,
+                0.10000000000000001
+            ],
+            "type": "Box",
+            "visible": true
+        },
+        {
+            "ambientCoefficient": 1,
+            "diffuseCoefficient": 1,
+            "exponent": 16,
+            "id": "{ac358aa8-1841-44dc-bdc8-fa2d3de56fe4}",
+            "name": "MirrorMaterial",
+            "reflectionCoefficient": 0.5,
+            "reflectionColor": [
+                1,
+                1,
+                1
+            ],
+            "specularCoefficient": 0.5,
+            "specularColor": [
+                1,
+                1,
+                1
+            ],
+            "type": "ReflectiveMaterial"
+        },
+        {
+            "id": "{d53ace0d-addc-4672-86af-026154aa8f2f}",
+            "material": "{ac358aa8-1841-44dc-bdc8-fa2d3de56fe4}",
+            "name": "Sphere 1",
+            "position": [
+                0,
+                0,
+                3
+            ],
+            "radius": 1,
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "type": "Sphere",
+            "visible": true
+        },
+        {
+            "id": "{90a8a183-cede-43dc-a536-7de914e195cd}",
+            "material": "{ac358aa8-1841-44dc-bdc8-fa2d3de56fe4}",
+            "name": "Sphere 2",
+            "position": [
+                0,
+                0,
+                -3
+            ],
+            "radius": 1,
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "type": "Sphere",
+            "visible": true
+        },
+        {
+            "fieldOfView": 6.2831853071856001,
+            "id": "{d17eebfa-7e3a-4a45-a0e9-41b50467cb99}",
+            "name": "FishEyeCamera",
+            "position": [
+                0,
+                0,
+                -1
+            ],
+            "target": [
+                0,
+                0,
+                0
+            ],
+            "type": "FishEyeCamera"
+        },
+        {
+            "id": "{121ba3ae-6d2f-493e-876e-bab0b49a3739}",
+            "name": "OrthographicCamera",
+            "position": [
+                1,
+                -1,
+                -5
+            ],
+            "target": [
+                0,
+                0,
+                0
+            ],
+            "type": "OrthographicCamera",
+            "zoom": 1
+        },
+        {
+            "horizontalFieldOfView": 3.1415926535928,
+            "id": "{ea82e8b8-8393-478f-9e81-f77d863f3ca7}",
+            "name": "SphericalCamera",
+            "position": [
+                0.59999999999999998,
+                -0.10000000000000001,
+                -1
+            ],
+            "target": [
+                0,
+                0,
+                0
+            ],
+            "type": "SphericalCamera",
+            "verticalFieldOfView": 2.0943951023952003
+        },
+        {
+            "distance": 5,
+            "id": "{91260186-7458-42e3-bf63-561a146990b1}",
+            "name": "PinholeCamera",
+            "position": [
+                -1,
+                -1,
+                -1
+            ],
+            "target": [
+                0,
+                0,
+                0
+            ],
+            "type": "PinholeCamera",
+            "zoom": 1.5
+        },
+        {
+            "color": [
+                1,
+                1,
+                1
+            ],
+            "direction": [
+                -0.5,
+                -1,
+                -0.5
+            ],
+            "id": "{28002013-08ab-4596-9c54-f2d8cf6b03cc}",
+            "intensity": 1,
+            "name": "DirectionalLight 16",
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "type": "DirectionalLight",
+            "visible": true
+        }
+    ],
+    "id": "{edea240f-91a0-456d-ad3b-68eb1bc52a56}",
+    "name": "Reflections",
+    "type": "Scene"
+}
