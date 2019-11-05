@@ -77,7 +77,7 @@ CC = "g++"
 CORE_LIBS = ['dl', 'pthread', 'm']
 CORE_LIB_FLAGS = CORE_LIBS.collect { |l| "-l#{l}" }.join(' ')
 QT_LIB_FLAGS = FRAMEWORKS.collect { |l| "-lQt5#{l}" }.join(' ')
-LD_FLAGS = "#{CORE_LIB_FLAGS} -L #{QT_LIB} #{QT_LIB_FLAGS}  #{DEBUG_FLAGS}"
+LD_FLAGS = "-L #{QT_LIB} #{CORE_LIB_FLAGS} #{QT_LIB_FLAGS}  #{DEBUG_FLAGS}"
 
 CLEAN.include(SRC_OBJ, UNIT_TEST_OBJ, FUNCTIONAL_TEST_OBJ, TEST_HELPER_OBJ, GTEST_OBJ, EXAMPLES_OBJ, TOOLS_OBJ, UNIT_TEST_BIN, FUNCTIONAL_TEST_BIN, EXAMPLES_BIN, TOOLS_BIN)
 CLEAN.include(Rake::FileList["**/*.moc", "**/*.uic"])

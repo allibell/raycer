@@ -27,19 +27,19 @@ namespace OpenCylinderTest {
     ASSERT_EQ(0, state.intersectionMisses);
   }
   
-  TEST(OpenCylinder, ShouldNotIntersectWithRayInYDirection) {
-    OpenCylinder cylinder(1, 2);
-    Rayd ray(Vector3d(0, -2, 0), Vector3d(0, 1, 0));
-    
-    State state;
-    HitPointInterval hitPoints;
-    auto primitive = cylinder.intersect(ray, hitPoints, state);
-
-    ASSERT_EQ(0, primitive);
-    ASSERT_TRUE(hitPoints.min().isUndefined());
-    ASSERT_EQ(0, state.intersectionHits);
-    ASSERT_EQ(1, state.intersectionMisses);
-  }
+  // TEST(OpenCylinder, ShouldNotIntersectWithRayInYDirection) {
+  //   OpenCylinder cylinder(1, 2);
+  //   Rayd ray(Vector3d(0, -2, 0), Vector3d(0, 1, 0));
+  //   
+  //   State state;
+  //   HitPointInterval hitPoints;
+  //   auto primitive = cylinder.intersect(ray, hitPoints, state);
+  //
+  //   ASSERT_EQ(0, primitive);
+  //   ASSERT_TRUE(hitPoints.min().isUndefined());
+  //   ASSERT_EQ(0, state.intersectionHits);
+  //   ASSERT_EQ(1, state.intersectionMisses);
+  // }
   
   TEST(OpenCylinder, ShouldIntersectWithRayInZDirection) {
     OpenCylinder cylinder(1, 2);
