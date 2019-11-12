@@ -5,6 +5,7 @@ QT_BIN = "#{QT_BASE}/bin"
 QT_LIB = "#{QT_BASE}/lib"
 
 QT_FRAMEWORKS = ['Core', 'Gui', 'Widgets', 'Script']
+
 QT_INCLUDE_ROOT = "#{QT_BASE}/include"
 QT_INCLUDE_DIRS = [QT_FRAMEWORKS.map { |f| "#{QT_INCLUDE_ROOT}/Qt#{f}" }, QT_INCLUDE_ROOT].flatten
 
