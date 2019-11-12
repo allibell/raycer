@@ -2,11 +2,11 @@
 
 This is a raytracing library that is focused on speed and interactive rendering. It uses multiple threads to render parts of an image in parallel.
 
-I started this project in my spare time in order to refresh my C++ skills and learn about the Google Test framework. Turns out you CAN write tests in C++ :-)
+I made this primarily to learn about Qt, graphics in general (to supplement my Graphics course), and the Google Test framework. Turns out you CAN write tests in C++ :-)
 
 ## prerequisites
 
-To compile, you need ruby and rake. You also need a development version of Qt4 installed on your system. I recommend MacPorts for that.
+To compile, you need ruby and rake. You also need a development version of Qt5 installed on your system.
 
 ## compile
 
@@ -42,10 +42,3 @@ A couple of examples will be compiled. The most important one is
 * Support for the PLY mesh format
 * SSE3 optimizations
 
-## hack
-
-* Fork
-* Use the coding style
-* Write code
-* Write tests
-* Send me a pull request
